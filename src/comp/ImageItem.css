@@ -1,0 +1,26 @@
+.image-figure {
+	position: relative;
+}
+.image-figure .result-image {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 8px 1px grey;
+}
+
+.image-figure .like-section {
+	position: absolute;
+	bottom: 4px;
+	right: 0;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 2px;
+	border-radius: 4px 0 0 0;
+}
+
+.image-figure .like-section span {
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+	text-shadow: 0 0 2px rgb(119, 119, 119);
+}
